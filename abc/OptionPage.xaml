@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.OptionPage"
+             Title="OptionPage">
+    <StackLayout>
+        <ScrollView>
+            <VerticalStackLayout>
+                <Switch x:Name="bridge" Toggled="onORoff"/>
+                <Label x:Name="MyLabel"/>
+            </VerticalStackLayout>
+        </ScrollView>
+        <Button Text="HOME" Clicked="Button_Clicked"/>
+        <Label Text="Option"/>
+    </StackLayout>
+</ContentPage>
